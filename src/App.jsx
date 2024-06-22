@@ -14,7 +14,7 @@ function App() {
     if (numberAllowed) alpha += "0123456789";
     if (charAllowed) alpha += "!@#$%&*-_+=~`";
     for (let i = 0; i <= length; i++) {
-      pass += alpha.charAt(Math.floor(Math.random() * alpha.length + 1));
+      pass += alpha.charAt(Math.floor(Math.random() * alpha.length + 1)); 
     }
     setPassword(pass);
   };
